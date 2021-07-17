@@ -1,0 +1,4 @@
+input: pyro.jar
+output: pyro-deobf.jar
+transformers:
+  - com.javadeobfuscator.deobfuscator.transformers.normalizer.SourceFileClassNormalizer
